@@ -11,8 +11,6 @@
                         console.log('Service worker register fail');
                     }
                 }
-
-                await loadPosts();
             });
 
             const selects = document.querySelectorAll('.select');
